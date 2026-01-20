@@ -1,0 +1,82 @@
+.auth-container {
+  max-width: 400px;
+  margin: 60px auto;
+  padding: 30px;
+  background-color: #1e1e1e;
+  border-radius: 10px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.6);
+  color: white;
+}
+
+/* Title */
+.auth-title {
+  text-align: center;
+  margin-bottom: 12px;
+}
+
+
+/* Field */
+.auth-field {
+  margin-bottom: 16px;
+}
+
+.auth-container label {
+  display: block;
+  margin-bottom: 6px;
+  font-size: 14px;
+}
+
+.auth-container input {
+  width: 100%;
+  padding: 11px;
+  border-radius: 6px;
+  border: none;
+  outline: none;
+  font-size: 14px;
+}
+
+
+/* Button */
+.auth-button {
+  width: 100%;
+  padding: 12px;
+  background-color: #1faa00;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+.auth-button:hover {
+  background-color: #178a00;
+}
+
+
+/* Message */
+.auth-message {
+  text-align: center;
+  margin-top: 14px;
+  font-size: 14px;
+  color: #4caf50;
+}
+
+
+/* Switch links (REAL APP STYLE) */
+.auth-switch {
+  text-align: center;
+  margin-top: 18px;
+  font-size: 14px;
+  color: #cbd5e1;
+}
+
+.auth-switch span {
+  color: #22c55e;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.auth-switch span:hover {
+  text-decoration: underline;
+}

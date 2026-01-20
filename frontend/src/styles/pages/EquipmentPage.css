@@ -1,0 +1,61 @@
+/* EQUIPMENT PAGE */
+.equipment-page {
+  min-height: 100vh;
+  padding: 60px 8% 40px;
+  background-color: #ffffff;
+}
+
+
+/* TITLE */
+.equipment-title {
+  text-align: center;
+  font-size: 2.2rem;
+  color: #1f2937;
+  margin-bottom: 8px;
+  font-weight: 700;
+}
+
+
+/* SUBTITLE */
+.equipment-subtitle {
+  text-align: center;
+  font-size: 1rem;
+  color: #6b7280;
+  margin-bottom: 35px;
+}
+
+
+/* FILTER BAR */
+.equipment-filters {
+  display: flex;
+  gap: 14px;
+  justify-content: center;
+  margin-bottom: 40px;
+  flex-wrap: wrap;
+}
+
+.equipment-filters input,
+.equipment-filters select {
+  padding: 10px 14px;
+  border-radius: 10px;
+  border: 1px solid #cbd5e1;
+  font-size: 0.95rem;
+  min-width: 200px;
+}
+
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+  .equipment-page {
+    padding: 40px 16px;
+  }
+
+  .equipment-title {
+    font-size: 1.8rem;
+  }
+
+  .equipment-subtitle {
+    font-size: 0.95rem;
+    margin-bottom: 25px;
+  }
+}

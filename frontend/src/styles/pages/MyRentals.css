@@ -1,0 +1,127 @@
+.my-rentals-page {
+  padding: 30px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.rentals-title {
+  font-size: 28px;
+  margin-bottom: 4px;
+  color: #2e7d32;
+}
+
+.rentals-subtitle {
+  color: #555;
+  margin-bottom: 28px;
+}
+
+.rentals-loading,
+.no-rentals {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 1.1rem;
+  color: #555;
+}
+
+/* GRID */
+.rentals-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 22px;
+}
+
+/* CARD */
+.rental-card {
+  background: #ffffff;
+  border-radius: 18px;
+  padding: 22px;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.08);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.rental-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 18px 40px rgba(0, 0, 0, 0.12);
+}
+
+/* HEADER */
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.equipment-name {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 700;
+  color: #1b5e20;
+}
+
+/* STATUS BADGE */
+.status-badge {
+  padding: 6px 16px;
+  border-radius: 999px;
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.3px;
+}
+
+.status-badge.booked {
+  background: #dcfce7;
+  color: #166534;
+}
+
+.status-badge.returned {
+  background: #e5e7eb;
+  color: #374151;
+}
+
+/* ROWS */
+.card-row {
+  display: flex;
+  justify-content: space-between;
+  margin: 7px 0;
+  font-size: 0.95rem;
+  color: #333;
+}
+
+.card-row.total {
+  font-weight: 700;
+  color: #15803d;
+  margin-top: 12px;
+  border-top: 1px dashed #d1d5db;
+  padding-top: 10px;
+}
+
+/* ADDRESS */
+.address {
+  margin-top: 16px;
+  padding-top: 12px;
+  border-top: 1px solid #e5e7eb;
+  font-size: 0.9rem;
+  color: #444;
+}
+
+.address strong {
+  display: block;
+  margin-bottom: 4px;
+  color: #2e7d32;
+}
+
+.address p {
+  margin: 0;
+  line-height: 1.4;
+}
+
+/* MOBILE */
+@media (max-width: 480px) {
+  .rentals-title {
+    font-size: 24px;
+  }
+
+  .rental-card {
+    padding: 18px;
+  }
+}

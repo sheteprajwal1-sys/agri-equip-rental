@@ -1,0 +1,123 @@
+.owner-dashboard {
+  padding: 30px;
+}
+
+/* TITLES */
+.dashboard-title {
+  font-size: 26px;
+  margin-bottom: 25px;
+}
+
+.section-title {
+  margin-top: 40px;
+  margin-bottom: 15px;
+  font-size: 20px;
+}
+
+/* DASHBOARD CARDS */
+.dashboard-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+}
+
+.dashboard-card {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 22px;
+  border-radius: 14px;
+  color: #fff;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.12);
+  transition: transform 0.2s ease;
+}
+
+.dashboard-card:hover {
+  transform: translateY(-4px);
+}
+
+.dashboard-card .icon {
+  font-size: 34px;
+}
+
+.dashboard-card p {
+  margin: 0;
+  font-size: 15px;
+  opacity: 0.9;
+}
+
+.dashboard-card h3 {
+  margin: 4px 0 0;
+  font-size: 24px;
+}
+
+/* CARD COLORS */
+.dashboard-card.blue {
+  background: linear-gradient(135deg, #2196f3, #42a5f5);
+}
+
+.dashboard-card.green {
+  background: linear-gradient(135deg, #f306b0, #f306b0);
+}
+
+.dashboard-card.orange {
+  background: linear-gradient(135deg, #fb8c00, #ffb74d);
+}
+
+/* ACTIVE RENTALS */
+.dashboard-card.purple {
+  background: linear-gradient(135deg, #7b1fa2, #ab47bc);
+}
+
+/* COLOR: TOTAL EQUIPMENT */
+.dashboard-card.teal {
+  background: linear-gradient(135deg, #00897b, #26a69a);
+}
+
+/* COLOR: TOTAL EARNINGS */
+.dashboard-card.gold {
+  background: linear-gradient(135deg, #2e7d32, #66bb6a);
+}
+
+
+/* 💰 EARNINGS TABLE */
+.table-card {
+  background: #ffffff;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+}
+
+.earnings-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.earnings-table thead {
+  background: linear-gradient(135deg, #1e5ae8, #2f7cf6);
+  color: #fff;
+}
+
+.earnings-table th {
+  padding: 14px;
+  text-align: left;
+  font-size: 15px;
+}
+
+.earnings-table td {
+  padding: 14px;
+  border-bottom: 1px solid #eee;
+  font-size: 14px;
+}
+
+.earnings-table tbody tr:hover {
+  background-color: #f4f8ff;
+}
+
+/* LOADING / ERROR */
+.dashboard-loading,
+.dashboard-error {
+  text-align: center;
+  margin-top: 40px;
+  font-size: 16px;
+}

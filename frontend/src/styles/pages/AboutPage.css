@@ -1,0 +1,161 @@
+/* PAGE WRAPPER */
+.page-wrapper {
+  margin-top: 40px; 
+}
+
+
+/* MAIN CONTAINER */
+.about-container {
+  max-width: 900px;
+  margin: auto;
+  padding: 10px 20px 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+}
+
+
+/* ABOUT CARD */
+.about-card {
+  background: #ffffff;
+  border-radius: 14px;
+  padding: 32px;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.08);
+  font-family: "Segoe UI", "Poppins", sans-serif;
+}
+
+.about-title {
+  margin-bottom: 12px;
+  color: #1b5e20;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.about-subtitle {
+  color: #555;
+  margin-bottom: 22px;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+
+/* Farmer-friendly text */
+.about-card p {
+  line-height: 1.9;
+  margin-bottom: 16px;
+  color: #333;
+  font-size: 16px;
+}
+
+.about-card strong {
+  color: #1b5e20;
+}
+
+
+/* Highlight box */
+.about-highlight {
+  margin-top: 24px;
+  padding: 14px 18px;
+  background: #e8f5e9;
+  border-left: 6px solid #2e7d32;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 15px;
+}
+
+
+/* CONTACT CARD */
+.contact-card {
+  background: #f9faf9;
+  border-radius: 14px;
+  padding: 28px;
+  border-left: 6px solid #2e7d32;
+  font-family: "Segoe UI", "Poppins", sans-serif;
+}
+
+.contact-card h2 {
+  margin-bottom: 14px;
+  color: #1b5e20;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.contact-card p {
+  margin-bottom: 18px;
+  color: #444;
+  font-size: 15px;
+}
+
+
+/* Contact rows */
+.contact-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+  border-bottom: 1px dashed #ccc;
+  font-size: 15px;
+}
+
+.contact-row span {
+  color: #555;
+  font-weight: 500;
+}
+
+.contact-row strong {
+  color: #222;
+}
+
+
+/* Trust note */
+.contact-note {
+  margin-top: 18px;
+  font-size: 14px;
+  color: #2e7d32;
+  font-weight: 700;
+  text-align: center;
+}
+
+
+/* CARD HOVER */
+.about-card,
+.contact-card {
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.about-card:hover,
+.contact-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 18px 40px rgba(0, 0, 0, 0.12);
+}
+
+
+/* HIGHLIGHT HOVER */
+.about-highlight {
+  transition: background 0.25s ease, transform 0.25s ease;
+}
+
+.about-highlight:hover {
+  background: #dff1e2;
+  transform: translateX(4px);
+}
+
+
+/* CONTACT ROW HOVER */
+.contact-row {
+  transition: background 0.2s ease, padding-left 0.2s ease;
+}
+
+.contact-row:hover {
+  background: #eef7ef;
+  padding-left: 10px;
+  border-radius: 6px;
+}
+
+/* TITLE HOVER */
+.about-title:hover,
+.contact-card h2:hover {
+  color: #2e7d32;
+  letter-spacing: 0.5px;
+  transition: all 0.2s ease;
+}

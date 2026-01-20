@@ -1,0 +1,132 @@
+/* Page container */
+.owner-rentals-page {
+  padding: 30px 40px;
+  background-color: #f7f9fc;
+  min-height: 100vh;
+}
+
+/* Page title */
+.page-title {
+  font-size: 26px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  color: #2c3e50;
+}
+
+/* Table */
+.rentals-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #ffffff;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.rentals-table thead {
+  background-color: #2f80ed;
+  color: #ffffff;
+}
+
+.rentals-table th,
+.rentals-table td {
+  padding: 12px 14px;
+  text-align: center;
+  font-size: 14px;
+}
+
+.rentals-table tbody tr {
+  border-bottom: 1px solid #eaeaea;
+}
+
+.rentals-table tbody tr:hover {
+  background-color: #f5f8ff;
+}
+
+/* Status badges */
+.status {
+  padding: 5px 12px;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: 600;
+  display: inline-block;
+}
+
+.status.booked {
+  background-color: #fff4e5;
+  color: #f2994a;
+}
+
+.status.returned {
+  background-color: #e6f7ec;
+  color: #27ae60;
+}
+
+/* Buttons */
+.view-btn,
+.return-btn,
+.close-btn {
+  border: none;
+  padding: 6px 14px;
+  font-size: 13px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.view-btn {
+  background-color: #eaf2ff;
+  color: #2f80ed;
+}
+
+.view-btn:hover {
+  background-color: #d6e6ff;
+}
+
+.return-btn {
+  background-color: #27ae60;
+  color: #ffffff;
+}
+
+.return-btn:hover {
+  background-color: #219653;
+}
+
+.close-btn {
+  margin-top: 12px;
+  background-color: #eb5757;
+  color: #ffffff;
+}
+
+.close-btn:hover {
+  background-color: #d64545;
+}
+
+/* Details panel */
+.rental-details {
+  margin-top: 25px;
+  background: #ffffff;
+  padding: 20px 25px;
+  border-radius: 8px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+  max-width: 500px;
+}
+
+.rental-details h3 {
+  margin-bottom: 12px;
+  color: #2c3e50;
+}
+
+.rental-details p {
+  margin: 6px 0;
+  font-size: 14px;
+  color: #333;
+}
+
+/* Center text */
+.center-text {
+  text-align: center;
+  padding: 40px;
+  font-size: 16px;
+  color: #666;
+}

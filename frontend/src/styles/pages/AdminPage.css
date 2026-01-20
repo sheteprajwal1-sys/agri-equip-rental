@@ -1,0 +1,170 @@
+.admin-page {
+  padding: 30px 40px;
+  font-family: "Segoe UI", sans-serif;
+}
+
+/* TITLE */
+.admin-title {
+  font-size: 26px;
+  margin-bottom: 25px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+
+/* DASHBOARD CARDS */
+.dashboard-cards {
+  display: flex;
+  gap: 25px;
+  margin-bottom: 40px;
+}
+
+.dash-card {
+  flex: 1;
+  padding: 25px;
+  border-radius: 16px;
+  color: #fff;
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.15);
+}
+
+.dash-card h3 {
+  font-size: 18px;
+  margin-bottom: 12px;
+}
+
+.dash-card p {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+
+/* COLORS */
+.dash-card.blue {
+  background: linear-gradient(135deg, #2196f3, #42a5f5);
+}
+
+.dash-card.green {
+  background: linear-gradient(135deg, #2e7d32, #66bb6a);
+}
+
+.dash-card.orange {
+  background: linear-gradient(135deg, #f9a825, #ffca28);
+}
+
+.dash-card.purple {
+  background: linear-gradient(135deg, #6a1b9a, #9575cd);
+}
+
+
+/* ADD EQUIPMENT BOX */
+.add-equipment-box {
+  background: #f9f9f9;
+  padding: 20px;
+  border-radius: 12px;
+  margin-bottom: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  align-items: center;
+}
+
+.add-equipment-box h3 {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.add-equipment-box input,
+.add-equipment-box select {
+  padding: 8px 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.add-equipment-box input[type="file"] {
+  border: none;
+}
+
+.add-equipment-box .checkbox {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 14px;
+}
+
+
+/* BUTTONS */
+.add-btn {
+  background: #4caf50;
+  color: #fff;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.add-btn:hover {
+  background: #43a047;
+}
+
+.delete-btn {
+  background: #e53935;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.delete-btn:hover {
+  background: #c62828;
+}
+
+
+/* TABLE */
+.admin-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.admin-table th,
+.admin-table td {
+  border-bottom: 1px solid #ddd;
+  padding: 12px 10px;
+  text-align: left;
+}
+
+.admin-table th {
+  background: #f1f1f1;
+  font-weight: 600;
+}
+
+
+/* STATUS */
+.status {
+  padding: 4px 10px;
+  border-radius: 20px;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.status.available {
+  background: #c8e6c9;
+  color: #2e7d32;
+}
+
+.status.unavailable {
+  background: #ffcdd2;
+  color: #c62828;
+}
+
+
+/* TOAST */
+.toast {
+  margin-bottom: 15px;
+  background: #323232;
+  color: white;
+  padding: 10px 16px;
+  border-radius: 6px;
+  display: inline-block;
+}

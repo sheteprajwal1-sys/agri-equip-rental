@@ -71,3 +71,22 @@ Owners can manage equipment, pricing, and availability, while farmers can browse
 2. Install dependencies  
    ```bash
    npm install
+
+---
+
+## Screenshots
+
+### Login Page
+![Login Page](screenshots/login.png)
+
+### Home Page
+![Home Page](screenshots/home.png)
+
+### Equipment Page
+![Equipment Page](screenshots/equipment.png)
+
+### Owner Dashboard
+![Owner Dashboard](screenshots/dashboard.png)
+
+
+   
